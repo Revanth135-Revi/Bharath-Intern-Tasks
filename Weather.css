@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(shades\ of\ weather.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h1{
+    color: white;
+}
+
+
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+
+}
+
+.inputs{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center ;
+    background: cyan;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.inputs input[type="text"]{
+    height: 4rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #473939;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.inputs input[type="submit"]{
+    height: 3rem;
+    width: 6rem;
+    background: Black;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputs input[type="submit"]:hover{
+    color: black;
+    background-color: cyan;
+    border: black;
+    transition: 1s;
+}
+
+.display{
+    text-align: center;
+    width: 520px;
+    color: #16a864;
+}
+
+.wrapper{
+    margin: 0 9rem;
+    background-color: Black;
+    height: 45vh;
+    margin: 50px;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    margin: 5px 0;
+    text-align: center;
+    background: Black;
+    color: cyan;
+}
+
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: darkorange;
+    font-size: 23px;
+}
+
+.wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+}
+
+.wrapper p span{
+    color: darkorange;
+    font-size: 25px;
+}
+
